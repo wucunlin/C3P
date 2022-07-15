@@ -12,7 +12,7 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
  
 If you find our work useful in your research or publication, please cite our work:
 ```
-@inproceedings{A2J,
+@inproceedings{C3P,
 author = {Wu, Cunlin and Xiao, Yang and Zhang, Boshen and Zhang Mingyang and Cao, Zhiguo and Zhou Tianyi, Joey},
 title = {C3P: Cross-domain Pose Prior Propagation for Weakly Supervised 3D Human Pose Estimation},
 booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
