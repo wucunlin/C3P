@@ -1,0 +1,6 @@
+python >= 3.7.0
+pytorch >= 1.6.0
+h5py
+opencv-python
+easydict
+pyyaml
