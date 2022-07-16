@@ -10,6 +10,12 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
  CMU is in CMUP_open.   
  ITOP is in ITOP_open.   
  
+ ##Installation
+ Install the corresponding dependencies in the requirement.txt
+ mkdir 'model;output;data' in both CMU_open and ITOP_open
+ download preprocessed data https://drive.google.com/file/d/127P1g2SaaovZ_7gyVLh9rd-XXycXnf4y/view?usp=sharing in CMUP_open/data
+ 
+ 
 If you find our work useful in your research or publication, please cite our work:
 ```
 @inproceedings{C3P,
