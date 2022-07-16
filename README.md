@@ -26,13 +26,13 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
     &ensp;&ensp; python test.py   
   &ensp; to test CMU_Panoptic dataset:   
     &ensp;&ensp; cd CMUP_open   
-    &ensp;&ensp python test.py   
+    &ensp;&ensp; python test.py   
   &ensp;(change model to test need to modify the corresponding code in test.py)   
   
 ## Train
-   &enspcd CMUP_open   
-   &ensppython train.py   
-   &enspthe model and log file will be saved in output   
+   &ensp; cd CMUP_open   
+   &ensp; python train.py   
+   &ensp; the model and log file will be saved in output   
  
  
 If you find our work useful in your research or publication, please cite our work:
