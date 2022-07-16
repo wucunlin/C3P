@@ -16,6 +16,22 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
   mkdir 'model;output;data' in both CMU_open and ITOP_open.   
   download preprocessed data https://drive.google.com/file/d/127P1g2SaaovZ_7gyVLh9rd-XXycXnf4y/view?usp=sharing in CMUP_open/data.   
   download preprocessed data https://drive.google.com/file/d/1nEoD8qs-8XpSI7PRmMvE4Hc--H531mxC/view?usp=sharing in ITOP_open/data.   
+  
+## Test
+  download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing in ITOP_open/model.   
+  download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing in CMUP_open/model.   
+  download model https://drive.google.com/file/d/1zjuVIOWQ_FSH4_pq0Acm7Hvjmbs8pUY4/view?usp=sharing in CMUP_open/model.
+  to test ITOP dataset:   
+    cd ITOP_open   
+    python test.py   
+  to test CMU_Panoptic dataset:   
+    cd CMUP_open   
+    python test.py   
+  (change model to test need to modify the corresponding code in test.py)   
+  
+## Train
+   cd CMUP_open   
+   python train.py   
  
  
 If you find our work useful in your research or publication, please cite our work:
