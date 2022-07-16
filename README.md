@@ -32,6 +32,7 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
 ## Train
    cd CMUP_open   
    python train.py   
+   the model and log file will be saved in output   
  
  
 If you find our work useful in your research or publication, please cite our work:
