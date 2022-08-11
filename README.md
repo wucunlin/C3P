@@ -18,13 +18,13 @@ This is the official implementation for the paper, **"C3P: Cross-domain Pose Pri
  ```   
   
   mkdir `model`, `output`, `data` for both `CMU_open` and `ITOP_open`.   
-  Download preprocessed data https://drive.google.com/file/d/127P1g2SaaovZ_7gyVLh9rd-XXycXnf4y/view?usp=sharing to CMUP_open/data.   
-  Download preprocessed data https://drive.google.com/file/d/1nEoD8qs-8XpSI7PRmMvE4Hc--H531mxC/view?usp=sharing to ITOP_open/data.   
+  Download preprocessed data https://drive.google.com/file/d/127P1g2SaaovZ_7gyVLh9rd-XXycXnf4y/view?usp=sharing to `CMUP_open/data`.   
+  Download preprocessed data https://drive.google.com/file/d/1nEoD8qs-8XpSI7PRmMvE4Hc--H531mxC/view?usp=sharing to `ITOP_open/data`.   
   
 ## Test
-  &ensp; Download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing to ITOP_open/model.   
-  &ensp; Download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing to CMUP_open/model.   
-  &ensp; Download model https://drive.google.com/file/d/1zjuVIOWQ_FSH4_pq0Acm7Hvjmbs8pUY4/view?usp=sharing to CMUP_open/model.   
+  &ensp; Download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing to `ITOP_open/model`.   
+  &ensp; Download model https://drive.google.com/file/d/1XE3M4h5Lf9OxVWSQwKoolDpd9xF4xUch/view?usp=sharing to `MUP_open/model`.   
+  &ensp; Download model https://drive.google.com/file/d/1zjuVIOWQ_FSH4_pq0Acm7Hvjmbs8pUY4/view?usp=sharing to `CMUP_open/model`.   
   &ensp; **Test ITOP dataset**:   
 ```python
 cd ITOP_open
@@ -52,5 +52,15 @@ author = {Wu, Cunlin and Xiao, Yang and Zhang, Boshen and Zhang Mingyang and Cao
 title = {C3P: Cross-domain Pose Prior Propagation for Weakly Supervised 3D Human Pose Estimation},
 booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
 year = {2022}
+}
+```
+
+Relevant paper: [A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image](https://arxiv.org/abs/1908.09999). 
+```
+@inproceedings{A2J,
+author = {Xiong, Fu and Zhang, Boshen and Xiao, Yang and Cao, Zhiguo and Yu, Taidong and Zhou Tianyi, Joey and Yuan, Junsong},
+title = {A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image},
+booktitle = {Proceedings of the IEEE Conference on International Conference on Computer Vision (ICCV)},
+year = {2019}
 }
 ```
